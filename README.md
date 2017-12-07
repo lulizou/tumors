@@ -52,6 +52,7 @@ info. Default is false.
 
 
 ##Example:
+
 **Compilation line using Mac OS X 10.10.5:** g++ tumor.C -o tumor
 
 **Command line run:** tumor -s 1 -t 333333 -m 5e-4
