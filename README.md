@@ -51,11 +51,15 @@ Default is 0.2.
 info. Default is false.
 
 
-##Example:
+#Example
 
-**Compilation line using Mac OS X 10.10.5:** g++ tumor.C -o tumor
-
-**Command line run:** tumor -s 1 -t 333333 -m 5e-4
-
+**Compilation line using Mac OS X 10.10.5:**
+```
+g++ tumor.C -o tumor
+```
+**Command line run:**
+```
+tumor -s 1 -t 333333 -m 5e-4
+```
 This creates 200 tumors of size 333,333, with unique seeds 1:200, and an expected
 mutation value of 5e-4, and generates a .csv file for each tumor.
